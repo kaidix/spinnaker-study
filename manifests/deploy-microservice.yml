@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /kaidi-solo(/|$)(.*)
                         backend:
                             serviceName: kaidi-solo-microservice-service
                             servicePort: 30201
